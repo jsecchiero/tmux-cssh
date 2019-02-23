@@ -29,6 +29,7 @@ Options:
   -h                  Show help
   -n <name>           Name of the tmux session (default: cssh)
   -o <ssh args>       Additional SSH arguments
+  -c                  Use the current tmux session and just spawn a new window instead
 
 % tmux-cssh web{1..4}
 
